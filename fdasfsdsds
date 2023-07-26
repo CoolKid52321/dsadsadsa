@@ -772,6 +772,7 @@ function library:Introduction()
     LuckyHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     LuckyHub.BackgroundTransparency = 1.000
     LuckyHub.Size = UDim2.new(0, 80, 0, 21)
+    LuckyHub.Position = UDim2.new(0.1, 0, 0, 0)
     LuckyHub.Font = Enum.Font.Code
     LuckyHub.Text = "powered by LuckyHub"
     LuckyHub.TextColor3 = Color3.fromRGB(124, 124, 124)
@@ -785,7 +786,7 @@ function library:Introduction()
     text.Position = UDim2.new(0.912751675, 0, 0, 0)
     text.Size = UDim2.new(0, 26, 0, 21)
     text.Font = Enum.Font.Code
-    text.Text = "hash"
+    text.Text = ".gg/luckyhub"
     text.TextColor3 = Color3.fromRGB(124, 124, 124)
     text.TextSize = 10.000
     text.TextTransparency = 1
